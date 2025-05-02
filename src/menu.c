@@ -151,7 +151,7 @@ void eh_um_beco_s_saida(Node *raiz){
         else if (beco_s_saida(no))
             printf("Beco sem seida!\n");
         else
-        printf("Este no ainda pode ter filhos.\n");
+        printf("Este no nao eh um beco sem saida, possui filhos.\n");
                 	
 	}while(1);
 }
